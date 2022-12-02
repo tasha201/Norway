@@ -1,18 +1,25 @@
+:root {
+  --bg-color: #313131;
+  --main-color: #ffffff;
+  --secondary-color: #979797;
+}
+
 body {
-    background-color: #313131;
+  background-color: var(--bg-color);
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;;
 }
 
 h1 {
-    color: #fff;
-    font-size: 48px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 200px;
+  color: var(--main-color);
+  font-size: 48px;
+  text-align: center;
+  margin-top: 200px;
 }
 
 p {
-    color: #979797;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-align: center;
+  color: var(--secondary-color);
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
 }
