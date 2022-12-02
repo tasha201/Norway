@@ -10,7 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;;
 }
 
-h1 {
+.main-heading {
   color: var(--main-color);
   font-size: 48px;
   text-align: center;
@@ -20,6 +20,21 @@ h1 {
 p {
   color: var(--secondary-color);
   font-size: 18px;
-  text-transform: uppercase;
   text-align: center;
+}
+
+.active {
+  font-size: 22px;
+}
+
+.nav-link {
+  color: var(--main-color);
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column-reverse;
 }
