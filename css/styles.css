@@ -10,13 +10,14 @@ body {
   font-family: 'Roboto', sans-serif;;
 }
 
-/* .main-heading {
+.main-heading {
   color: var(--main-color);
-  font-size: 48px;
+  font-size: 80px;
   text-align: center;
   margin-top: -450px;
   margin-bottom: 50px;
-} */
+  letter-spacing: 45px;
+}
 
 .main {
   margin-top: -250px;
@@ -54,11 +55,11 @@ body {
 
 .image {
   width: 1100px;
-  /* opacity: 0.5; */
 }
 
-/* .social {
-  position: absolute;
-  top: 300px;
-  left: 150px;
-} */
+.social {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
