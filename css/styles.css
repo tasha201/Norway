@@ -23,12 +23,6 @@ body {
   margin-top: -250px;
 }
 
-/* p {
-  color: var(--secondary-color);
-  font-size: 18px;
-  text-align: center;
-} */
-
 .active {
   font-size: 22px;
 }
@@ -59,7 +53,101 @@ body {
 
 .social {
   width: 10%;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.fa-brands {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+  .main-heading {
+    font-size: 60px;
+    margin-top: -350px;
+  }
+  .quote {
+    width: 70%;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-heading {
+    font-size: 40px;
+    margin-top: -285px;
+    margin-bottom: 20px;
+  }
+
+  .quote {
+    width: 70%;
+    font-size: 14px;
+  }
+  
+  .social {
+    margin-right: 5px;
+  }
+
+  .fa-2xl {
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 20px;
+    letter-spacing: 20px;
+    margin-top: 20px;
+  }
+
+  .quote {
+    width: 60%;
+    font-size: 12px;
+  }
+
+  .fa-2xl {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .main-heading {
+    margin-top: 60px;
+  }
+  .quote {
+    font-size: 8px;
+  }
+  .nav-link {
+    font-size: 10px; 
+  }
+}
+
+@media (max-width: 430px) {
+  .main-heading {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 375px) {
+  .main-heading {
+    font-size: 15px;
+    margin-top: 110px;
+  }
+  .quote {
+    font-size: 6px;
+  }
+  .nav-link {
+    font-size: 8px; 
+  }
+  .fa-2xl {
+    margin-bottom: 15px;
+    font-size: 0.5em;
+  }
 }
