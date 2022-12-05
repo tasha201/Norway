@@ -59,12 +59,44 @@ body {
   justify-content: center;
 }
 
-.fa-brands {
+.fa-icon {
   margin-bottom: 100px;
 }
 
 .mtop {
   margin-top: 300px;
+}
+
+.footer {
+  padding: 48px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-heading {
+  font-size: 40px;
+  color:var(--main-color);
+  letter-spacing: 45px;
+  padding-bottom: 20px;
+}
+
+.list-style {
+  list-style: none;
+  color: var(--main-color);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.list-style li {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -80,8 +112,8 @@ body {
 @media (max-width: 991px) {
   .main-heading {
     font-size: 40px;
-    margin-top: -285px;
-    margin-bottom: 20px;
+    margin-top: -270px;
+    margin-bottom: 50px;
   }
 
   .quote {
@@ -93,14 +125,22 @@ body {
     margin-right: 5px;
   }
 
-  .fa-2xl {
+  .fa-icon {
     font-size: 1em;
     margin-bottom: 40px;
+  }
+
+  .fa-style {
+    font-size: 1em;
   }
 
   .nav-link {
     font-size: 12px;
     padding: 5px;
+  }
+
+  .footer {
+    padding: 30px;
   }
 }
 
@@ -116,7 +156,7 @@ body {
     font-size: 12px;
   }
 
-  .fa-2xl {
+  .fa-icon {
     margin-bottom: 30px;
   }
 
@@ -127,6 +167,19 @@ body {
   h2 {
     font-size: 25px;
   }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .list-style li {
+    font-size: 10px;
+  }
+  
 }
 
 @media (max-width: 560px) {
@@ -143,22 +196,38 @@ body {
 
 @media (max-width: 430px) {
   .main-heading {
-    margin-top: 90px;
+    margin-top: 140px;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer-heading {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .list-style {
+    justify-content: left;
+  }
+  .list-style li {
+    margin-left: 10px;
   }
 }
 
 @media (max-width: 375px) {
   .main-heading {
     font-size: 20px;
-    margin-top: 110px;
+    margin-top: 140px;
   }
   .quote {
-    font-size: 8px;
+    font-size: 6px;
   }
   .nav-link {
-    font-size: 8px; 
+    font-size: 10px; 
   }
-  .fa-2xl {
+  .fa-icon {
     margin-bottom: 15px;
     font-size: 0.5em;
   }
@@ -167,5 +236,17 @@ body {
   }
   .mtop {
   margin-top: 100px;
-}
+  }
+  .footer-heading {
+    letter-spacing: 20px;
+  }
+  .list-style {
+    margin-bottom: 5px;
+  }
+  .list-style li {
+    font-size: 8px;
+  }
+  .fa-style {
+    font-size: 0.7em;
+  }
 }
