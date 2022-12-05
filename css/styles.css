@@ -108,7 +108,7 @@ body {
   .main-heading {
     font-size: 20px;
     letter-spacing: 20px;
-    margin-top: 20px;
+    margin-top: 70px;
   }
 
   .quote {
@@ -118,6 +118,14 @@ body {
 
   .fa-2xl {
     margin-bottom: 30px;
+  }
+
+  .mtop {
+    margin-top: 150px;
+  }
+
+  h2 {
+    font-size: 25px;
   }
 }
 
@@ -141,11 +149,11 @@ body {
 
 @media (max-width: 375px) {
   .main-heading {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 110px;
   }
   .quote {
-    font-size: 6px;
+    font-size: 8px;
   }
   .nav-link {
     font-size: 8px; 
@@ -154,4 +162,10 @@ body {
     margin-bottom: 15px;
     font-size: 0.5em;
   }
+  h2 {
+    font-size: 16px;
+  }
+  .mtop {
+  margin-top: 100px;
+}
 }
