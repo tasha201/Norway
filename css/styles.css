@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #313131;
+  --bg-color: #444444;
   --main-color: #ffffff;
   --secondary-color: #979797;
 }
@@ -61,6 +61,10 @@ body {
 
 .fa-brands {
   margin-bottom: 100px;
+}
+
+.mtop {
+  margin-top: 300px;
 }
 
 @media (max-width: 1200px) {
