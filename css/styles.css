@@ -119,6 +119,13 @@ body {
   
 }
 
+.col-style {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 @media (max-width: 1200px) {
   .main-heading {
