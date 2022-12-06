@@ -110,6 +110,14 @@ body {
   color: var(--main-color);
 }
 
+.tour-card {
+  background-color: white;
+}
+
+.tour-card-heading {
+  font-size: 26px;
+  
+}
 
 
 @media (max-width: 1200px) {
