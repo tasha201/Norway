@@ -110,8 +110,8 @@ body {
   color: var(--main-color);
 }
 
-.tour-card {
-  background-color: white;
+.tour-card, .team-card {
+  background-color: var(--main-color);
 }
 
 .tour-card-heading {
@@ -124,6 +124,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.team-style {
+  text-align: center;
+  margin: 0 auto;
 }
 
 
@@ -163,7 +168,7 @@ body {
   }
 
   .nav-link {
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px;
   }
 
@@ -217,10 +222,11 @@ body {
 
 @media (max-width: 560px) {
   .main-heading {
-    margin-top: 60px;
+    margin-top: 90px;
+    margin-bottom: 30px;
   }
   .quote {
-    font-size: 8px;
+    font-size: 10px;
   }
   .nav-link {
     font-size: 14px; 
