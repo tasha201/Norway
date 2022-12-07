@@ -131,6 +131,16 @@ body {
   margin: 0 auto;
 }
 
+.links a {
+  color: var(--main-color);
+}
+.links a:hover {
+  color: var(--secondary-color);
+}
+
+.contacts-heading {
+  font-size: 30px;
+}
 
 @media (max-width: 1200px) {
   .main-heading {
@@ -218,6 +228,10 @@ body {
     font-size: 10px;
   }
   
+  .contacts .links{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 560px) {
