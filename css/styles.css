@@ -170,6 +170,11 @@ body {
   .footer {
     padding: 30px;
   }
+
+  .col-style {
+    width: 40%;
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -220,6 +225,11 @@ body {
   .nav-link {
     font-size: 10px; 
   }
+
+  .col-style {
+    width: 70%;
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 430px) {
@@ -241,6 +251,11 @@ body {
   }
   .list-style li {
     margin-left: 10px;
+  }
+
+  .col-style {
+    width: 80%;
+    margin-bottom: 40px;
   }
 }
 
