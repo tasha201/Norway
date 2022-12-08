@@ -72,6 +72,16 @@ body {
   background-color: var(--bg-color)
 }
 
+.footer-link {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
 .footer-social {
   display: flex;
   flex-direction: row;
@@ -197,6 +207,10 @@ body {
     padding: 5px;
   }
 
+  .footer-link {
+    font-size: 18px;
+  }
+
   .footer {
     padding: 30px;
   }
@@ -256,6 +270,9 @@ body {
   }
 
   .nav-link {
+    font-size: 14px;
+  }
+  .footer-link {
     font-size: 12px;
   }
 }
@@ -269,7 +286,11 @@ body {
     font-size: 10px;
   }
   .nav-link {
-    font-size: 9px; 
+    font-size: 14px; 
+  }
+
+  .footer-link {
+    font-size: 9px;
   }
 
   .col-style {
@@ -305,7 +326,10 @@ body {
   }
 
   .nav-link {
-    font-size: 6px;
+    font-size: 14px;
+  }
+  .footer-link {
+    font-size: 5px;
   }
 }
 
@@ -318,7 +342,10 @@ body {
     font-size: 6px;
   }
   .nav-link {
-    font-size: 5px; 
+    font-size: 14px; 
+  }
+  .footer-link {
+    font-size: 5px;
   }
   .fa-icon {
     margin-bottom: 15px;
