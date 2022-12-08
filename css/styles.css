@@ -133,13 +133,19 @@ body {
 
 .links a {
   color: var(--main-color);
+  margin-top: 10px;
 }
 .links a:hover {
   color: var(--secondary-color);
 }
 
+.contacts {
+  max-width: 50%;
+}
 .contacts-heading {
-  font-size: 30px;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 1200px) {
@@ -190,6 +196,14 @@ body {
     width: 40%;
     margin-bottom: 40px;
   }
+
+  .contacts-heading {
+    font-size: 30px;
+  }
+
+  .links p {
+  margin-top: 10px;
+}
 }
 
 @media (max-width: 768px) {
@@ -231,6 +245,10 @@ body {
   .contacts .links{
     display: flex;
     flex-direction: column;
+  }
+
+  .contacts-heading {
+    font-size: 30px;
   }
 }
 
